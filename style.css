@@ -3,3 +3,63 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+header {
+    width: 1000px;
+    height: 70px;
+    background-color:#FFDBAA;
+    padding: 30px;
+  }
+
+#header-text {
+    color: #553100;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 700;
+  }
+
+.header-button {
+    background-color: #805215;
+    color: white
+}
+
+.pad-button {
+    padding: 10px;
+}
+
+main {
+    width: 1000px;
+    height: 600px;
+    background-color: #D4A76A;
+    padding: 30px;
+}
+
+nav {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+li ul {
+    list-style-type: none;
+    background-color: white;
+    padding: 10px;
+}
+
+.triple {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    width: 250px;
+  }
+
+.about-block {
+    font-size: 20px;
+    padding: 20px;
+    width: 950px;
+}
+
+.sub-heading {
+    font-weight: bold;
+}
